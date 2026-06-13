@@ -1,5 +1,5 @@
-uuid: c27ac8b0-155f-47b6-ada8-71f3edab6a78
-langcode: uk
+uuid: 7c495884-7ba4-41a2-8a5d-cd447c0ae79b
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
-label: 'Вилучити матеріал з головної сторінки'
+label: 'Remove content from front page'
 type: node
 plugin: node_unpromote_action
 configuration: {  }

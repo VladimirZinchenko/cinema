@@ -1,5 +1,5 @@
-uuid: 895eb404-9dae-4a4d-9fa9-0319a17cfe81
-langcode: uk
+uuid: fc280ebf-1b33-464d-be54-658cf63f0620
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: r_A0T3aTqGDwLyvoH7wLps-0PM--RHlS8UsiJe_Ac64
 id: node.search_index
-label: 'Пошуковий індекс'
+label: 'Search index'
 description: ''
 targetEntityType: node
 cache: true

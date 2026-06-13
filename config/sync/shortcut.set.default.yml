@@ -1,8 +1,8 @@
-uuid: a743ee84-11c8-4118-a5c9-d35ec5d462c2
-langcode: uk
+uuid: 4a7716c4-9a9c-4830-9779-fc5a31a324fb
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
 id: default
-label: Базово
+label: Default

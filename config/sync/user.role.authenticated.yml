@@ -1,5 +1,5 @@
-uuid: 1737c5fa-a21c-4f06-ab8f-2680995c32ac
-langcode: uk
+uuid: c8937d5b-ca14-4644-a21d-3b1af98792af
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,15 +9,14 @@ dependencies:
     - contact
     - file
     - filter
-    - media
     - search
     - shortcut
     - system
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
-label: 'Авторизований користувач'
-weight: -8
+label: 'Authenticated user'
+weight: 1
 is_admin: false
 permissions:
   - 'access comments'
@@ -29,4 +28,3 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
-  - 'view media'

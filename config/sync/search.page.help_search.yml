@@ -1,5 +1,5 @@
-uuid: 395092ce-f8e3-48c6-a05f-059193494c31
-langcode: uk
+uuid: a3ade486-5f93-40f4-8e87-9c7821e516b7
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: RZ-bcSekNSsAbIPLW7Gmyd3uUjIOSrPvnb8RCCZYJm8
 id: help_search
-label: Довідка
+label: Help
 path: help
 weight: 0
 plugin: help_search

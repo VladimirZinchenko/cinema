@@ -1,10 +1,10 @@
-uuid: e1093fa1-f8b4-44c4-a18d-20ff308ae446
-langcode: uk
+uuid: 2f8376e5-7bd3-4cdf-9f10-c02bb3584392
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
-name: 'Простий текст'
+name: 'Plain text'
 format: plain_text
 weight: 10
 filters:

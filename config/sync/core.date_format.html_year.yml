@@ -1,10 +1,10 @@
-uuid: 6986334f-d6a2-4c7a-82ca-4d715465fae1
-langcode: uk
+uuid: 5ca5af71-b836-403c-bdb1-b0b7d3fc592f
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: OjekiQuX9RbVQ2_8jOHBL94RgYLePqX7wpfNGgcQzrk
 id: html_year
-label: 'Рік HTML'
+label: 'HTML Year'
 locked: true
 pattern: 'Y'

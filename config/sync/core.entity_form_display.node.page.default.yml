@@ -1,13 +1,11 @@
-uuid: 1049b8d7-77d9-441a-94cd-1b6ec00e73fb
+uuid: 051754b4-7811-4598-9463-eac11d2e6676
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_metatag
     - node.type.page
   module:
-    - metatag
     - path
     - text
 _core:
@@ -32,21 +30,6 @@ content:
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_metatag:
-    type: metatag_firehose
-    weight: 26
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path

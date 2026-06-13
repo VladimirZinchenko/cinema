@@ -1,5 +1,5 @@
-uuid: 35e612c9-4cc0-4aa8-b609-2379810ca81c
-langcode: uk
+uuid: 2dc3cff4-6d35-4e9a-baa6-26da345f856e
+langcode: en
 status: true
 dependencies:
   module:
@@ -8,20 +8,20 @@ dependencies:
 _core:
   default_config_hash: SR5P89f0vUTPC7WY2YpLAffkDx8-Ar8LKFfowVXeqNU
 id: watchdog
-label: Вартовий
+label: Watchdog
 module: views
-description: 'Останні записи журналу'
+description: 'Recent log messages'
 tag: ''
 base_table: watchdog
 base_field: wid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Останні записи журналу'
+      title: 'Recent log messages'
       fields:
         nothing:
           id: nothing
@@ -29,7 +29,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: Піктограма
+          admin_label: Icon
           plugin_id: custom
           label: ''
           exclude: false
@@ -129,7 +129,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: machine_name
-          label: Важливість
+          label: Severity
           exclude: true
           alter:
             alter_text: false
@@ -179,7 +179,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: standard
-          label: Тип
+          label: Type
           exclude: false
           alter:
             alter_text: false
@@ -228,7 +228,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: date
-          label: Дата
+          label: Date
           exclude: false
           alter:
             alter_text: false
@@ -280,7 +280,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: dblog_message
-          label: Повідомлення
+          label: Message
           exclude: false
           alter:
             alter_text: false
@@ -332,7 +332,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: Користувач
+          label: User
           exclude: false
           alter:
             alter_text: false
@@ -395,7 +395,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: dblog_operations
-          label: Операції
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -449,22 +449,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Елементів на сторінку'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Усе -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Зміщення
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
-          submit_button: Фільтр
+          submit_button: Filter
           reset_button: true
-          reset_button_label: Скинути
-          exposed_sorts_label: 'Впорядкувати за'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: false
-          sort_asc_label: Зрост
-          sort_desc_label: Спад
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -479,10 +479,10 @@ display:
           field: area_text_custom
           relationship: none
           group_type: group
-          admin_label: 'Повідомлення в журналі відсутні.'
+          admin_label: 'No log messages available.'
           plugin_id: text_custom
           empty: true
-          content: 'Повідомлення в журналі відсутні.'
+          content: 'No log messages available.'
           tokenize: false
       sorts:
         wid:
@@ -514,7 +514,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Тип
+            label: Type
             description: ''
             use_operator: false
             operator: type_op
@@ -555,7 +555,7 @@ display:
           exposed: true
           expose:
             operator_id: severity_op
-            label: Важливість
+            label: Severity
             description: ''
             use_operator: false
             operator: severity_op
@@ -696,7 +696,7 @@ display:
       tags: {  }
   page:
     id: page
-    display_title: Сторінка
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:

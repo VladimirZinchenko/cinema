@@ -1,10 +1,10 @@
-uuid: 739c8174-78fe-43e8-9c5e-5da7f056bff5
-langcode: uk
+uuid: 17c7d64d-566b-40c1-ab9a-4b74f07c1631
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
 id: admin
-label: Адміністрування
-description: 'Посилання адміністративних завдань'
+label: Administration
+description: 'Administrative task links'
 locked: true

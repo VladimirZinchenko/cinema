@@ -1,5 +1,5 @@
-uuid: 63920d84-5009-42da-8233-54ae6b976f8e
-langcode: uk
+uuid: e2ab90ff-8db5-4de7-aeb4-36c926e3d476
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
 id: node_unpublish_action
-label: 'Зняти з публікації матеріал'
+label: 'Unpublish content'
 type: node
 plugin: 'entity:unpublish_action:node'
 configuration: {  }

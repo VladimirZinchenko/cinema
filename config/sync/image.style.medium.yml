@@ -1,11 +1,11 @@
-uuid: 3189baa6-6494-4fcb-a505-ac3043bb548d
-langcode: uk
+uuid: cdc2250e-c387-4564-8cc8-54ae582e09dd
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: dlar76VBuGj5iMGTruB_uMZX8VbivXt9_QLemaG2q4E
 name: medium
-label: 'Середній (220×220)'
+label: 'Medium (220×220)'
 effects:
   bddf0d06-42f9-4c75-a700-a33cafa25ea0:
     uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0

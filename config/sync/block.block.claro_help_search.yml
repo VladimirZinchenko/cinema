@@ -1,5 +1,5 @@
-uuid: 2a1697db-a2e5-4a2a-961b-f2ea51c9ce8e
-langcode: uk
+uuid: d1a84c2c-5d24-48ac-9cc2-e1455cbc04ca
+langcode: en
 status: true
 dependencies:
   module:
@@ -20,7 +20,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Пошук довідкою'
+  label: 'Search help'
   label_display: visible
   provider: search
   page_id: help_search

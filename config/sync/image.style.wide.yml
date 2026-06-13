@@ -1,11 +1,11 @@
-uuid: 3cbf6836-232c-4331-98c1-fc65934cb63f
-langcode: uk
+uuid: d869b2aa-531b-4e8d-8e67-b39adfd68045
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: XHh3ATMH7z4ljwmzdndM47qNMkgLnoYsP98rGxVgCOw
 name: wide
-label: 'Широке (1090)'
+label: 'Wide (1090)'
 effects:
   09959c15-59ce-4f6d-90df-e2d7cf32bce5:
     uuid: 09959c15-59ce-4f6d-90df-e2d7cf32bce5

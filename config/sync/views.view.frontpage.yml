@@ -1,94 +1,31 @@
-uuid: 99cf0a57-9e39-4bb0-83bc-a2ae44574520
-langcode: uk
+uuid: f66bf125-3f88-4148-8b4c-ff79d41bdc26
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - field.storage.node.body
+    - core.entity_view_mode.node.teaser
   module:
     - node
-    - text
     - user
 _core:
   default_config_hash: OEEnRQIjfIaCFRsz8U3VqDrE82ltQKlo8wNbQJRZXu0
 id: frontpage
-label: 'Головна сторінка'
+label: Frontpage
 module: node
-description: 'Всі матеріали винесені на головну сторінку.'
+description: 'All content promoted to the front page.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
       title: ''
-      fields:
-        body:
-          id: body
-          table: node__body
-          field: body
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: false
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: text_default
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+      fields: {  }
       pager:
         type: full
         options:
@@ -98,29 +35,29 @@ display:
           total_pages: 0
           id: 0
           tags:
-            next: 'Наступна ›'
-            previous: '‹ Попередня'
-            first: '« Перша'
-            last: 'Остання »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Елементів на сторінку'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Усе -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Зміщення
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
         options:
-          submit_button: Застосувати
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Скинути
-          exposed_sorts_label: 'Впорядкувати за'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Зрост
-          sort_desc_label: Спад
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -139,7 +76,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'Вміст головної сторінки ще не створено.<br />Щоб розпочати створення сайту перегляньте <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">Посібник користувача</a>.'
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
           tokenize: false
         node_listing_empty:
           id: node_listing_empty
@@ -162,7 +99,7 @@ display:
           plugin_id: title
           label: ''
           empty: true
-          title: Вітаємо!
+          title: Welcome!
       sorts:
         sticky:
           id: sticky
@@ -300,12 +237,9 @@ display:
           default_row_class: true
           uses_fields: false
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: true
+          view_mode: teaser
       query:
         type: views_query
         options:
@@ -321,16 +255,14 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.body'
+      tags: {  }
   feed_1:
     id: feed_1
-    display_title: Канал
+    display_title: Feed
     display_plugin: feed
     position: 2
     display_options:
@@ -354,20 +286,18 @@ display:
       path: rss.xml
       sitename_title: true
       displays:
-        default: '0'
-        page_1: '0'
+        page_1: page_1
+        default: ''
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.body'
+      tags: {  }
   page_1:
     id: page_1
-    display_title: Сторінка
+    display_title: Page
     display_plugin: page
     position: 1
     display_options:
@@ -376,10 +306,8 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.body'
+      tags: {  }

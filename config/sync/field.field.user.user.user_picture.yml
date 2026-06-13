@@ -1,5 +1,5 @@
-uuid: ccfce3cb-cddb-436f-9ad1-69d762f02cb5
-langcode: uk
+uuid: 9af1e40e-bba0-49d9-8c03-16199b68e40c
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,8 +13,8 @@ id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: Зображення
-description: 'Ваше віртуальне обличчя або фото.'
+label: Picture
+description: 'Your virtual face or picture.'
 required: false
 translatable: true
 default_value: {  }

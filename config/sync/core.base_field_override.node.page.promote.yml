@@ -1,5 +1,5 @@
-uuid: 8f5f54d7-5b91-4d92-9641-53398c618221
-langcode: uk
+uuid: ab727796-bb21-4396-8437-553c087bc0cf
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.page.promote
 field_name: promote
 entity_type: node
 bundle: page
-label: 'Винесено на головну сторінку'
+label: 'Promoted to front page'
 description: ''
 required: false
 translatable: false
@@ -19,6 +19,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: Увімкнено
-  off_label: Вимкнено
+  on_label: 'On'
+  off_label: 'Off'
 field_type: boolean

@@ -1,5 +1,5 @@
-uuid: 323c202a-c8cd-4709-8a2c-fe0b745a3168
-langcode: uk
+uuid: dc53b0b8-34e2-4626-91ce-286676569e78
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,7 +10,6 @@ dependencies:
     - comment
     - contextual
     - file
-    - flipbook
     - node
     - path
     - system
@@ -19,8 +18,8 @@ dependencies:
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
-label: 'Редактор вмісту'
-weight: -7
+label: 'Content editor'
+weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
@@ -44,6 +43,5 @@ permissions:
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'
-  - 'view flipbook entity'
   - 'view own unpublished content'
   - 'view the administration theme'

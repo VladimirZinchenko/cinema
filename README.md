@@ -26,4 +26,4 @@ Comment strings 91 and 123
 3D Flipbook module
 
 #TypeError: Drupal\flipbook\Form\ChoosePdfStyleForm::__construct():
-https://www.drupal.org/project/flipbook/issues/3508651
+https://www.drupal.org/project/flipbook/issues/3508651# cinema

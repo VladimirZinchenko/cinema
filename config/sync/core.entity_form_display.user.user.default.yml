@@ -1,10 +1,12 @@
-uuid: 51af1291-70e2-43ae-a35b-3292e40e6b77
+uuid: 298f8fef-c7a1-43e5-8278-6d3483a8655d
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.user.user.user_picture
+    - image.style.thumbnail
   module:
+    - image
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -14,16 +16,23 @@ bundle: user
 mode: default
 content:
   account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  language:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
-hidden:
-  contact: true
-  langcode: true
-  language: true
-  social_auth: true
-  user_picture: true
+  user_picture:
+    type: image_image
+    weight: -1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden: {  }

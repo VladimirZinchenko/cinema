@@ -1,5 +1,5 @@
-uuid: ab2f4027-b43d-4fbf-8e8f-e5b129371ee1
-langcode: uk
+uuid: e1d88373-2666-4a29-833d-cd0bd98f33ae
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,20 +7,20 @@ dependencies:
 _core:
   default_config_hash: suDsVMgawXoQt4rfmdfpr05EVX3z3KyfDDTYgeSM898
 id: who_s_online
-label: 'Блок "Хто в мережі"'
+label: "Who's online block"
 module: user
-description: 'Показує імена користувачів, що були активними останнім часом, і загальне число активних користувачів.'
+description: 'Shows the user names of the most recently active users, and the total number of active users.'
 tag: default
 base_table: users_field_data
 base_field: uid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Хто на сайті'
+      title: "Who's online"
       fields:
         name:
           id: name
@@ -64,13 +64,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Застосувати
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Скинути
-          exposed_sorts_label: 'Впорядкувати за'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Зрост
-          sort_desc_label: Спад
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -88,7 +88,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'Зараз 0 користувачів в мережі.'
+          content: 'There are currently 0 users online.'
           tokenize: false
       sorts:
         access:
@@ -142,8 +142,8 @@ display:
           exposed: false
           expose:
             operator_id: access_op
-            label: 'Останній доступ'
-            description: 'Користувач вважається присутнім на сайті протягом цього часу після останнього перегляду сторінки.'
+            label: 'Last access'
+            description: 'A user is considered online for this long after they have last viewed a page.'
             use_operator: false
             operator: access_op
             operator_limit_selection: false
@@ -198,7 +198,7 @@ display:
           admin_label: ''
           plugin_id: result
           empty: false
-          content: 'Користувачів в мережі зараз: @total.'
+          content: 'There are currently @total users online.'
       footer: {  }
       display_extenders: {  }
     cache_metadata:
@@ -210,13 +210,13 @@ display:
       tags: {  }
   who_s_online_block:
     id: who_s_online_block
-    display_title: 'Хто на сайті'
+    display_title: "Who's online"
     display_plugin: block
     position: 1
     display_options:
-      display_description: 'Список користувачів, що здійснили вхід.'
+      display_description: 'A list of users that are currently logged in.'
       display_extenders: {  }
-      block_description: 'Хто на сайті'
+      block_description: "Who's online"
     cache_metadata:
       max-age: -1
       contexts:

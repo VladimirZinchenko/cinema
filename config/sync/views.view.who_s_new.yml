@@ -1,5 +1,5 @@
-uuid: 451b03c4-9b65-4712-965e-89468b047b33
-langcode: uk
+uuid: 5237c1da-00ae-4102-827e-f5bcad731178
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,20 +7,20 @@ dependencies:
 _core:
   default_config_hash: zji0_13MyVGK7Bn1lUMDeZyyOIZedWvqpYUeM_SioPI
 id: who_s_new
-label: 'Хто новенький'
+label: "Who's new"
 module: user
-description: 'Показує перелік найновіших облікових записів на сайті.'
+description: 'Shows a list of the newest user accounts on the site.'
 tag: default
 base_table: users_field_data
 base_field: uid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Хто новенький'
+      title: "Who's new"
       fields:
         name:
           id: name
@@ -64,13 +64,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Застосувати
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Скинути
-          exposed_sorts_label: 'Впорядкувати за'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Зрост
-          sort_desc_label: Спад
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       access:
         type: perm
         options:
@@ -180,14 +180,14 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: 'Хто новенький'
+    display_title: "Who's new"
     display_plugin: block
     position: 1
     display_options:
-      display_description: 'Список нових користувачів'
+      display_description: 'A list of new users'
       display_extenders: {  }
-      block_description: 'Хто новенький'
-      block_category: Користувач
+      block_description: "Who's new"
+      block_category: User
     cache_metadata:
       max-age: -1
       contexts:

@@ -1,5 +1,5 @@
-uuid: 2ead9fd0-2a96-4cbc-aca6-761223abc595
-langcode: uk
+uuid: 81f64650-f884-4718-8104-e9ee816d0235
+langcode: en
 status: true
 dependencies:
   config:
@@ -38,7 +38,7 @@ settings:
     ckeditor5_codeBlock:
       languages:
         -
-          label: 'Простий текст'
+          label: 'Plain text'
           language: plaintext
         -
           label: C
@@ -53,7 +53,7 @@ settings:
           label: CSS
           language: css
         -
-          label: Різниця
+          label: Diff
           language: diff
         -
           label: HTML
@@ -68,7 +68,7 @@ settings:
           label: PHP
           language: php
         -
-          label: Пітон
+          label: Python
           language: python
         -
           label: Ruby

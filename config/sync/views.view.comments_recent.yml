@@ -1,5 +1,5 @@
-uuid: 1e97ab82-b31a-4d38-8361-bde3b293a748
-langcode: uk
+uuid: 98fb95cf-6a10-4a1d-8fbd-5979e8427f11
+langcode: en
 status: true
 dependencies:
   module:
@@ -9,20 +9,20 @@ dependencies:
 _core:
   default_config_hash: cFOucxH8PAXDQ2kViCcAHgK-JMCcxVkpIMzD56EfpZo
 id: comments_recent
-label: 'Останні коментарі'
+label: 'Recent comments'
 module: views
-description: 'Останні коментарі.'
+description: 'Recent comments.'
 tag: default
 base_table: comment_field_data
 base_field: cid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Останні коментарі'
+      title: 'Recent comments'
       fields:
         subject:
           id: subject
@@ -131,8 +131,8 @@ display:
           hide_alter_empty: true
           type: timestamp_ago
           settings:
-            future_format: '@interval віднині'
-            past_format: '@interval тому'
+            future_format: '@interval hence'
+            past_format: '@interval ago'
             granularity: 2
       pager:
         type: some
@@ -158,7 +158,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'Коментарі відсутні.'
+          content: 'No comments available.'
           tokenize: false
       sorts:
         created:
@@ -252,13 +252,13 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: Блок
+    display_title: Block
     display_plugin: block
     position: 1
     display_options:
       display_extenders: {  }
-      block_description: 'Останні коментарі'
-      block_category: 'Списки (Види)'
+      block_description: 'Recent comments'
+      block_category: 'Lists (Views)'
       allow:
         items_per_page: true
     cache_metadata:

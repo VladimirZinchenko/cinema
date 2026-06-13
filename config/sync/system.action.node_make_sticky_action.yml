@@ -1,5 +1,5 @@
-uuid: b7d7c9f5-5ab3-49f2-ade7-c47a82922aaa
-langcode: uk
+uuid: b97473c9-a09d-4c7e-8560-0bad62b43b72
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Прикріпити матеріал'
+label: 'Make content sticky'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

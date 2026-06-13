@@ -1,10 +1,10 @@
-uuid: 3f9d7299-2247-4106-b4e5-47fd9363fcb2
-langcode: uk
+uuid: 933322c5-33c7-4a92-a59b-690459fb6230
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: QiKqQS_YGAT3Qr4vaAgZICJknm-MGCzt_xBAMqg-tRM
-name: 'Обмежений HTML'
+name: 'Restricted HTML'
 format: restricted_html
 weight: 1
 filters:

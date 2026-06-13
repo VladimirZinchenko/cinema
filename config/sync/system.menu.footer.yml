@@ -1,10 +1,10 @@
-uuid: 6dc47a54-089f-47cd-b34c-b6cdeecc7154
-langcode: uk
+uuid: ac67c170-4cad-41e3-a09f-633b4ef84a6c
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
 id: footer
-label: 'Нижній колонтитул'
-description: 'Посилання відомостей про сайт'
+label: Footer
+description: 'Site information links'
 locked: true
