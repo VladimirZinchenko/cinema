@@ -1,0 +1,39 @@
+uuid: 07ba168f-a88f-43a3-8652-32ab2a2b499b
+langcode: uk
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_imgpadding
+field_name: field_imgpadding
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: p_1
+      label: p-1
+    -
+      value: p_2
+      label: p-2
+    -
+      value: p_3
+      label: p-3
+    -
+      value: p_4
+      label: p-4
+    -
+      value: p_5
+      label: p-5
+    -
+      value: p_lg_4
+      label: p-lg-4
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

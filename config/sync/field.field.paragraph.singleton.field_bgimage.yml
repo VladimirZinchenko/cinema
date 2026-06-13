@@ -1,0 +1,27 @@
+uuid: 1d4a0440-2f5f-4c3a-af0e-44fd1ad00fa6
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bgimage
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - file
+id: paragraph.singleton.field_bgimage
+field_name: field_bgimage
+entity_type: paragraph
+bundle: singleton
+label: bgimage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: field/image/paragraph-bg
+  file_extensions: 'jpg png webp'
+  max_filesize: ''
+  description_field: false
+field_type: file

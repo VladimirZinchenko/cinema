@@ -1,0 +1,22 @@
+uuid: 29781f72-9943-480e-bd7c-52c9354be3b4
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: sKldL-zbUfAxe5j4K3VrkizCtomZjfYIDcEBEM0Qa6Q
+id: b5boyko_breadcrumbs
+theme: b5boyko
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  label_display: '0'
+  provider: system
+visibility: {  }

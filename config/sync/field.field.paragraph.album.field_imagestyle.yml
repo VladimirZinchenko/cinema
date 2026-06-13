@@ -1,0 +1,23 @@
+uuid: 5422b658-a995-4c51-b182-601cd682bf0b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagestyle
+    - paragraphs.paragraphs_type.album
+  module:
+    - options
+id: paragraph.album.field_imagestyle
+field_name: field_imagestyle
+entity_type: paragraph
+bundle: album
+label: Imagestyle
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: cover
+default_value_callback: ''
+settings: {  }
+field_type: list_string

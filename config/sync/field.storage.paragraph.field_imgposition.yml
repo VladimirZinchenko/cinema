@@ -1,0 +1,27 @@
+uuid: ef2e1c15-c4a6-4164-97b7-721054f64fc4
+langcode: uk
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_imgposition
+field_name: field_imgposition
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: left
+    -
+      value: right
+      label: right
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: a4d181e8-34f1-4b07-a585-14537a0cc05c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagestyle
+    - paragraphs.paragraphs_type.chessboard
+  module:
+    - options
+id: paragraph.chessboard.field_imagestyle
+field_name: field_imagestyle
+entity_type: paragraph
+bundle: chessboard
+label: Imagestyle
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: cover
+default_value_callback: ''
+settings: {  }
+field_type: list_string

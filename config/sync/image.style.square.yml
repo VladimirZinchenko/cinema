@@ -1,0 +1,29 @@
+uuid: 11115e46-59e2-42d7-960c-b59726dcfe9a
+langcode: uk
+status: true
+dependencies: {  }
+name: square
+label: 'Square (220×220)'
+effects:
+  32637692-247d-41ea-b2a4-bc5720c3f18f:
+    uuid: 32637692-247d-41ea-b2a4-bc5720c3f18f
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 220
+      upscale: false
+  0fecfa09-2ac8-4798-ade5-71c9c0db76aa:
+    uuid: 0fecfa09-2ac8-4798-ade5-71c9c0db76aa
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 220
+      height: 220
+      anchor: center-center
+  84419e0d-48f9-4f6a-8c28-30c9952eff16:
+    uuid: 84419e0d-48f9-4f6a-8c28-30c9952eff16
+    id: image_convert
+    weight: 3
+    data:
+      extension: webp

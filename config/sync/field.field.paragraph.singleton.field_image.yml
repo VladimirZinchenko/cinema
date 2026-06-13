@@ -1,0 +1,38 @@
+uuid: 04fb5f3e-4e78-4e18-a2be-5097fe828228
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - image
+id: paragraph.singleton.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: singleton
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: field/image/paragraph
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 0a1dbe1c-4998-4081-bbaa-d6b5539582de
+    alt: 'About Petro Boyko Catalog'
+    title: ''
+    width: 920
+    height: 920
+field_type: image

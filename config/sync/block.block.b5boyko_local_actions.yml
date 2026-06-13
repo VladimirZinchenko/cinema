@@ -1,0 +1,20 @@
+uuid: 2edd7c8d-f652-4bf7-bce0-918f2ae89d3f
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: o6WqX_0Ci0ErT1D40oU5QWcxr9OcP-2dZLHPD6WRsgU
+id: b5boyko_local_actions
+theme: b5boyko
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

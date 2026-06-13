@@ -1,0 +1,23 @@
+uuid: b032f6db-834f-40f0-8625-5e15a39ced3c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imgposition
+    - paragraphs.paragraphs_type.chessboard
+  module:
+    - options
+id: paragraph.chessboard.field_imgposition
+field_name: field_imgposition
+entity_type: paragraph
+bundle: chessboard
+label: imgposition
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: a6a45193-c44a-4b53-b563-c27c8e0a9e16
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: lzuXTuAMouUeHVeiiG5MBK_uuK4tbXuRprikWAsCvVY
+id: b5boyko_content
+theme: b5boyko
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

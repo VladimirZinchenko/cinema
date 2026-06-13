@@ -1,0 +1,62 @@
+uuid: 569481a6-13a4-4f1e-a5a0-e161e7ccb91d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.movie.field_bgcolor
+    - field.field.paragraph.movie.field_image
+    - field.field.paragraph.movie.field_imgposition
+    - field.field.paragraph.movie.field_text
+    - field.field.paragraph.movie.field_video
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.movie
+  module:
+    - file
+    - image
+    - imce
+    - text
+id: paragraph.movie.default
+targetEntityType: paragraph
+bundle: movie
+mode: default
+content:
+  field_bgcolor:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_imgposition:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_video:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: false
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,23 @@
+uuid: 9f965112-495c-40c0-b8f8-8ea2337778f7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ratio
+    - paragraphs.paragraphs_type.album
+  module:
+    - options
+id: paragraph.album.field_ratio
+field_name: field_ratio
+entity_type: paragraph
+bundle: album
+label: Ratio
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ratio_ratio_3x2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

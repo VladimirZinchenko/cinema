@@ -1,0 +1,23 @@
+uuid: be1fd45c-f6ef-44a7-83ca-5df226acb20d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagestyle
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - options
+id: paragraph.singleton.field_imagestyle
+field_name: field_imagestyle
+entity_type: paragraph
+bundle: singleton
+label: Imagestyle
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: cover
+default_value_callback: ''
+settings: {  }
+field_type: list_string

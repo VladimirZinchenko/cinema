@@ -1,0 +1,21 @@
+uuid: dd7fa3ed-a4be-4495-aca2-9cbf9b67ab76
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.sheet
+  module:
+    - metatag
+id: node.sheet.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: sheet
+label: Metatag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

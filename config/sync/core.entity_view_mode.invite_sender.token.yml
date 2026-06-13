@@ -1,0 +1,11 @@
+uuid: 74a17953-8016-4750-96d5-28003176352f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - invite
+id: invite_sender.token
+label: Token
+description: ''
+targetEntityType: invite_sender
+cache: true

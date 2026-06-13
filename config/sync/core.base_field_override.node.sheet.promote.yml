@@ -1,0 +1,22 @@
+uuid: bbd7569e-bd9f-47ff-89d6-6dc935cfcea0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.sheet
+id: node.sheet.promote
+field_name: promote
+entity_type: node
+bundle: sheet
+label: 'Винесено на головну сторінку'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

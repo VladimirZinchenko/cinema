@@ -1,0 +1,19 @@
+uuid: 898795ee-81e6-40bd-9862-3e0b6612a5db
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video_youtube
+    - paragraphs.paragraphs_type.video
+id: paragraph.video.field_video_youtube
+field_name: field_video_youtube
+entity_type: paragraph
+bundle: video
+label: 'Video YouTube'
+description: 'URL video like https://www.youtube.com/embed/O1TTpEUw9tM'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

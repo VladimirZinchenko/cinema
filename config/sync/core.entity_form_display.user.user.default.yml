@@ -1,0 +1,29 @@
+uuid: 51af1291-70e2-43ae-a35b-3292e40e6b77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+hidden:
+  contact: true
+  langcode: true
+  language: true
+  social_auth: true
+  user_picture: true

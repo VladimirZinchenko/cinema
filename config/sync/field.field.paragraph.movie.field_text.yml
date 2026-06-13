@@ -1,0 +1,27 @@
+uuid: 99e1ace9-e8ba-4051-94d8-371f70d3420b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.movie
+  module:
+    - text
+id: paragraph.movie.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: movie
+label: Text
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<h1>Lorem ipsum dolor sit Video</h1><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Faucibus in ornare quam viverra orci sagittis eu volutpat. Lacinia quis vel eros donec ac odio tempor orci dapibus.</p>'
+    format: full_html
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

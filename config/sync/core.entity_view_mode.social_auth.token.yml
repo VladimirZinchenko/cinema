@@ -1,0 +1,11 @@
+uuid: 6ba9575e-23b5-446d-9647-a321c384b861
+langcode: uk
+status: true
+dependencies:
+  module:
+    - social_auth
+id: social_auth.token
+label: Token
+description: ''
+targetEntityType: social_auth
+cache: true

@@ -1,0 +1,8 @@
+uuid: 76a41e31-712a-4dc6-a8e1-2af0731ffe1e
+langcode: uk
+status: true
+dependencies: {  }
+id: node__sheet
+label: 'Вміст: Sheet'
+tags:
+  robots: 'noindex, noarchive, noimageindex'

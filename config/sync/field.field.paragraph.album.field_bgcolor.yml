@@ -1,0 +1,23 @@
+uuid: 403af37b-38e0-47bc-8a8d-8fa8af774e6b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bgcolor
+    - paragraphs.paragraphs_type.album
+  module:
+    - options
+id: paragraph.album.field_bgcolor
+field_name: field_bgcolor
+entity_type: paragraph
+bundle: album
+label: bgcolor
+description: 'Вибір кольору фону і тексту, чи тільки тексту'
+required: false
+translatable: false
+default_value:
+  -
+    value: text_bg_light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

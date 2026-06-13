@@ -1,0 +1,23 @@
+uuid: 4b8e19ee-af90-4467-b97b-ea5dcaa0e657
+langcode: uk
+status: true
+dependencies:
+  module:
+    - file
+    - paragraphs
+id: paragraph.field_bgimage
+field_name: field_bgimage
+entity_type: paragraph
+type: file
+settings:
+  target_type: file
+  display_field: true
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

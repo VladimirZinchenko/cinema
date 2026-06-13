@@ -1,0 +1,25 @@
+uuid: 9444f116-a968-433b-acc9-9c353fe6841b
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: khcQjTh6FpgdGUS6nEtgmzkyxCgBJzlmI2ba-_AjnQQ
+id: b5boyko_branding
+theme: b5boyko
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

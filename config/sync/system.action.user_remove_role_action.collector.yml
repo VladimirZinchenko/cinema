@@ -1,0 +1,14 @@
+uuid: 6c9b50bc-f9a1-4d39-a0a7-5151520a1067
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.collector
+  module:
+    - user
+id: user_remove_role_action.collector
+label: 'Remove the Collector role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: collector

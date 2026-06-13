@@ -1,0 +1,77 @@
+uuid: 0617b24c-9395-42bd-89c3-8e92aa0f1285
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.singleton.field_bgcolor
+    - field.field.paragraph.singleton.field_bgimage
+    - field.field.paragraph.singleton.field_image
+    - field.field.paragraph.singleton.field_imagestyle
+    - field.field.paragraph.singleton.field_imgposition
+    - field.field.paragraph.singleton.field_more
+    - field.field.paragraph.singleton.field_text
+    - image.style.more_small
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - file
+    - glightbox
+    - options
+    - text
+id: paragraph.singleton.default
+targetEntityType: paragraph
+bundle: singleton
+mode: default
+content:
+  field_bgcolor:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_bgimage:
+    type: file_url_plain
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_imagestyle:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_imgposition:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_more:
+    type: glightbox
+    label: hidden
+    settings:
+      glightbox_node_style: more_small
+      glightbox_node_style_first: ''
+      glightbox_image_style: ''
+      glightbox_gallery: field_post
+      glightbox_gallery_custom: ''
+      glightbox_caption: alt
+      glightbox_caption_custom: ''
+      glightbox_caption_description: auto
+      glightbox_caption_description_custom: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_image: true

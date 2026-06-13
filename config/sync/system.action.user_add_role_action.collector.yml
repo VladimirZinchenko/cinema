@@ -1,0 +1,14 @@
+uuid: 19b339cd-b37b-4d84-990f-a68364871b19
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.collector
+  module:
+    - user
+id: user_add_role_action.collector
+label: 'Додати роль Collector до вибраних користувачів'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: collector

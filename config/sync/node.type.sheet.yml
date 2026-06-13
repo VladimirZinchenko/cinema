@@ -1,0 +1,17 @@
+uuid: 862bbdb1-953d-466d-832c-94212e20eac7
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Sheet
+type: sheet
+description: 'Page of Digest'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

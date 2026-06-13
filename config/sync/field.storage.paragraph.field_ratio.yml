@@ -1,0 +1,27 @@
+uuid: c6ead8ba-ff89-423a-975c-5d796c51e94f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ratio
+field_name: field_ratio
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ratio_ratio_3x2
+      label: 'ratio ratio-3x2'
+    -
+      value: ratio_ratio_4x3
+      label: 'ratio ratio-4x3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

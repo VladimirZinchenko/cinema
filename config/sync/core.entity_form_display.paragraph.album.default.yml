@@ -1,0 +1,57 @@
+uuid: fda8d034-79bf-4fd4-8acb-d908fbd16057
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.album.field_bgcolor
+    - field.field.paragraph.album.field_image
+    - field.field.paragraph.album.field_imagestyle
+    - field.field.paragraph.album.field_ratio
+    - field.field.paragraph.album.field_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.album
+  module:
+    - image
+    - text
+id: paragraph.album.default
+targetEntityType: paragraph
+bundle: album
+mode: default
+content:
+  field_bgcolor:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_imagestyle:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ratio:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,13 @@
+uuid: b7d7c9f5-5ab3-49f2-ade7-c47a82922aaa
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Прикріпити матеріал'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

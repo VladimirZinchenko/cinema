@@ -1,0 +1,21 @@
+uuid: 10e0ef80-3af8-4d7b-9ed3-32b32f53f255
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imgpadding
+    - paragraphs.paragraphs_type.chessboard
+  module:
+    - options
+id: paragraph.chessboard.field_imgpadding
+field_name: field_imgpadding
+entity_type: paragraph
+bundle: chessboard
+label: Imgpadding
+description: 'Розмір відступу краю зображення від краю аркуша'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

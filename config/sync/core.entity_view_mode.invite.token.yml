@@ -1,0 +1,11 @@
+uuid: 28515535-c996-40f1-b017-8e01c19156db
+langcode: uk
+status: true
+dependencies:
+  module:
+    - invite
+id: invite.token
+label: Token
+description: ''
+targetEntityType: invite
+cache: true

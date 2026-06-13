@@ -1,0 +1,32 @@
+uuid: 08a0099b-954f-4ccd-bdd1-3d5c061ed653
+langcode: uk
+status: true
+dependencies: {  }
+id: flipsheet_group
+label: Flipsheet
+settings:
+  images_loaded: true
+  cell_selector: .gallery-cell
+  initial_index: 0
+  accessibility: true
+  set_gallery_size: true
+  resize: true
+  cell_align: left
+  contain: true
+  percent_position: true
+  right_to_left: false
+  draggable: true
+  free_scroll: false
+  lazy_load: 1
+  auto_play: null
+  wrap_around: false
+  group_cells: null
+  adaptive_height: false
+  watch_css: false
+  as_nav_for: ''
+  drag_threshold: 30
+  selected_attraction: 0.025
+  friction: 0.28
+  free_scroll_friction: 0.075
+  prev_next_buttons: true
+  page_dots: false

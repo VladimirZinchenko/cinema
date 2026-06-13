@@ -1,0 +1,11 @@
+uuid: 755ab1e0-be70-4d74-a438-07be08cce4cf
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Глобальне
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'

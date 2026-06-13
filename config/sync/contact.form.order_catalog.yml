@@ -1,0 +1,13 @@
+uuid: a836ca3e-d9d4-4df1-b7df-19f1f841b1ae
+langcode: uk
+status: true
+dependencies: {  }
+id: order_catalog
+label: 'Order a Catalog'
+recipients:
+  - 5910574@gmail.com
+  - acousticalligat@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

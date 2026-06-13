@@ -1,0 +1,27 @@
+uuid: 72a3b4e1-942c-4d16-9c47-5633e9e1eb4b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: b46gm6lmP4L5wtp-SAsu0kHA7tZry3P0VDHpH4aSKYA
+id: b5boyko_footer
+theme: b5boyko
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Нижній колонтитул'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

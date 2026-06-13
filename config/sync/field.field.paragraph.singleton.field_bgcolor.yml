@@ -1,0 +1,23 @@
+uuid: b15b2ccd-3c99-4a62-aebd-e03506d5b431
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bgcolor
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - options
+id: paragraph.singleton.field_bgcolor
+field_name: field_bgcolor
+entity_type: paragraph
+bundle: singleton
+label: bgcolor
+description: 'Вибір кольору фону і тексту, чи тільки тексту'
+required: false
+translatable: false
+default_value:
+  -
+    value: text_light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

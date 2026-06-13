@@ -1,0 +1,8 @@
+uuid: 6ab61f41-2334-4878-91b1-e40f96ba7ad4
+langcode: uk
+status: null
+dependencies: {  }
+id: linked
+label: Linked
+description: 'Запрошення за посиланням'
+data: 'a:1:{s:11:"target_role";s:9:"collector";}'

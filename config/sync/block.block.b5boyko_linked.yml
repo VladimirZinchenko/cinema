@@ -1,0 +1,33 @@
+uuid: 321bb6dd-96ce-4c76-ada1-dfcf5805868a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - invite_link
+    - system
+    - user
+  theme:
+    - b5boyko
+id: b5boyko_linked
+theme: b5boyko
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'invite_link_block:linked'
+settings:
+  id: 'invite_link_block:linked'
+  label: Linked
+  label_display: visible
+  provider: invite_link
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/1
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

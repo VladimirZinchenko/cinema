@@ -1,0 +1,39 @@
+uuid: 5c0a7840-864e-493c-8c60-b14c67aa65e7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sheet.body
+    - field.field.node.sheet.feeds_item
+    - field.field.node.sheet.field_catalog_number
+    - field.field.node.sheet.field_metatag
+    - field.field.node.sheet.field_paragraph
+    - node.type.sheet
+  module:
+    - text
+    - user
+id: node.sheet.teaser
+targetEntityType: node
+bundle: sheet
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  feeds_item: true
+  field_catalog_number: true
+  field_metatag: true
+  field_paragraph: true
+  langcode: true

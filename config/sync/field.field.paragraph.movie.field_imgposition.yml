@@ -1,0 +1,23 @@
+uuid: b9955e66-2518-4d6d-a8a2-9ecb08667ad9
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imgposition
+    - paragraphs.paragraphs_type.movie
+  module:
+    - options
+id: paragraph.movie.field_imgposition
+field_name: field_imgposition
+entity_type: paragraph
+bundle: movie
+label: imgposition
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

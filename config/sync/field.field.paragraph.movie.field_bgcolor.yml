@@ -1,0 +1,23 @@
+uuid: 703c4e48-0f81-4981-8e73-de250dea5895
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bgcolor
+    - paragraphs.paragraphs_type.movie
+  module:
+    - options
+id: paragraph.movie.field_bgcolor
+field_name: field_bgcolor
+entity_type: paragraph
+bundle: movie
+label: bgcolor
+description: 'Вибір кольору фону і тексту, чи тільки тексту'
+required: false
+translatable: false
+default_value:
+  -
+    value: text_bg_light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

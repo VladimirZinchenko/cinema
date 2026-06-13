@@ -1,0 +1,31 @@
+uuid: 7daf1da7-b864-4136-8b69-5732eb7223e7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: Oz29-DyPNNwLIGSrE-ksXKN6j4aJHK1MDHSe8x4wSCc
+id: b5boyko_main_navigation
+theme: b5boyko
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основна навіґація'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /welcome

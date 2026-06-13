@@ -1,0 +1,38 @@
+uuid: 15eb760c-2972-4430-a3b5-1b475ffb691d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - contact.form.order_catalog
+  module:
+    - contact_block
+    - system
+    - user
+  theme:
+    - b5boyko
+id: b5boyko_contactblock
+theme: b5boyko
+region: content
+weight: 1
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Замовити каталог'
+  label_display: visible
+  provider: contact_block
+  contact_form: order_catalog
+  form_display: default
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /catalog
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      administrator: administrator

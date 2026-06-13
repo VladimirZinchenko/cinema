@@ -1,0 +1,11 @@
+uuid: 499fcc48-ba50-445e-b3c1-7889c8cbdc8c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article
+target_entity_type_id: node
+target_bundle: article
+default_langcode: site_default
+language_alterable: false

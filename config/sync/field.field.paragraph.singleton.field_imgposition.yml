@@ -1,0 +1,23 @@
+uuid: c32a23fe-e755-4d29-b253-4bf63a899179
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imgposition
+    - paragraphs.paragraphs_type.singleton
+  module:
+    - options
+id: paragraph.singleton.field_imgposition
+field_name: field_imgposition
+entity_type: paragraph
+bundle: singleton
+label: imgposition
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

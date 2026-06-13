@@ -1,0 +1,19 @@
+uuid: 81fa5d8d-a191-4077-b7a2-c28bae80a4d8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_catalog_number
+    - node.type.sheet
+id: node.sheet.field_catalog_number
+field_name: field_catalog_number
+entity_type: node
+bundle: sheet
+label: 'Catalog number'
+description: 'Унікальний номер у Каталозі. Буде використаний при імпорті.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

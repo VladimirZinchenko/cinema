@@ -1,0 +1,22 @@
+uuid: 993222c9-6cf3-4718-b38f-aadb86d95280
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5boyko
+_core:
+  default_config_hash: TmvMDWNE1bAMdxSU96d0qlVPlIOdZNeck7N1LCsAINs
+id: b5boyko_messages
+theme: b5boyko
+region: content
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Повідомлення
+  label_display: '0'
+  provider: system
+visibility: {  }
