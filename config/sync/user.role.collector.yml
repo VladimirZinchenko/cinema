@@ -1,0 +1,12 @@
+uuid: f8650898-5391-4c39-8639-b7821e5dca9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - flipbook
+id: collector
+label: Collector
+weight: -9
+is_admin: null
+permissions:
+  - 'view flipbook entity'

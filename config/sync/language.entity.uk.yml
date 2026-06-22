@@ -1,0 +1,9 @@
+uuid: 5c0e02c8-130a-4a7e-a15d-6cb6f99d7943
+langcode: uk
+status: true
+dependencies: {  }
+id: uk
+label: Українська
+direction: ltr
+weight: 1
+locked: false

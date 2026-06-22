@@ -1,0 +1,22 @@
+uuid: c82699f0-270c-4aa3-9c7c-ead1b25e9e96
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: 4ZI17gCUPnmOcVJi_dmDFM72u0EmLAL2TbQ2BApn9N4
+id: b5cinema_help
+theme: b5cinema
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  label_display: '0'
+  provider: help
+visibility: {  }

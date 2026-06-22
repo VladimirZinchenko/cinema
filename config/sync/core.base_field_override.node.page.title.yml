@@ -1,0 +1,18 @@
+uuid: ca1d364f-afda-4bc1-9322-0e9b28a5c98a
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Заголовок
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

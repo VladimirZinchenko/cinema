@@ -1,0 +1,34 @@
+uuid: 8085dbf5-f01c-4194-823f-4514cda6359a
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+    - user
+  theme:
+    - b5cinema
+id: b5cinema_socialauthlogin
+theme: b5cinema
+region: content
+weight: -3
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Continue with Google'
+  label_display: visible
+  provider: social_auth
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/welcome\r\n/user/login\r\n/user/register"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      administrator: administrator

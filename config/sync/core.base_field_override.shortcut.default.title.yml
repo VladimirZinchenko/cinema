@@ -1,0 +1,18 @@
+uuid: d547bd7d-27c1-4012-8eb0-386a77e933f2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+id: shortcut.default.title
+field_name: title
+entity_type: shortcut
+bundle: default
+label: "Назва (ім'я)"
+description: 'Назва швидкої кнопки.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

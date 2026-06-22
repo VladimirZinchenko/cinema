@@ -1,0 +1,8 @@
+uuid: f386325b-9569-4e19-b669-9294ade88f08
+langcode: en
+status: null
+dependencies: {  }
+id: linked
+label: Linked
+description: 'Invite by Link'
+data: 'a:1:{s:11:"target_role";s:9:"collector";}'

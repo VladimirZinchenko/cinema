@@ -1,0 +1,14 @@
+uuid: 2152dd5d-876e-43b6-8157-574e4afa11dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.collector
+  module:
+    - user
+id: user_add_role_action.collector
+label: 'Add the Collector role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: collector

@@ -1,0 +1,20 @@
+uuid: fdc5df43-4110-4e66-b424-48d9b15afe32
+langcode: en
+status: true
+dependencies:
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: 1ClSE3jUwK2oKHDb9NqNeeQR4YaD3tUKuMA-rNfSwEo
+id: b5cinema_local_actions
+theme: b5cinema
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

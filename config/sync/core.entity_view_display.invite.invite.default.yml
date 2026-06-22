@@ -1,0 +1,30 @@
+uuid: 20dfde8f-8830-418e-84ed-42cafc51e11e
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite
+    - user
+id: invite.invite.default
+targetEntityType: invite
+bundle: invite
+mode: default
+content:
+  invitee:
+    type: author
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  reg_code:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  type: true
+  user_id: true

@@ -1,0 +1,27 @@
+uuid: 077b66ae-deac-489e-9fcf-c41c4790e133
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: 07tcVk5pd_lBA5oAtOloOe8xMkOB2cLRJ5zvUGrEWxM
+id: b5cinema_footer
+theme: b5cinema
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Нижній колонтитул'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

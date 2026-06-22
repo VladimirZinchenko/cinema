@@ -2,9 +2,9 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: 1532f2b7-e257-4241-9cb0-6e0541a65e3f
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+name: 'Movie in my head'
+mail: info@aaevr.net
+slogan: 'Petro Boyko'
 page:
   403: ''
   404: ''
@@ -12,4 +12,4 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-mail_notification: null
+mail_notification: ''

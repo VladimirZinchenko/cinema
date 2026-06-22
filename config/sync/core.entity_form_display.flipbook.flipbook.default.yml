@@ -1,0 +1,39 @@
+uuid: b80419c4-52e3-44ca-9483-0fa52458f85c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - image.style.thumbnail
+  module:
+    - file
+    - flipbook
+    - image
+id: flipbook.flipbook.default
+targetEntityType: flipbook
+bundle: flipbook
+mode: default
+content:
+  flipbook:
+    type: file_generic
+    weight: -3
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  flipbook_cover:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

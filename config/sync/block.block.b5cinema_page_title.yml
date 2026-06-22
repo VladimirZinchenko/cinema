@@ -1,0 +1,20 @@
+uuid: fca3a72e-9a56-4937-ae73-510f5d0f3302
+langcode: en
+status: true
+dependencies:
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: tBvgNhThawL1cwv_5fj2Tw9Lhw4xsgyAdoJagZlzAr0
+id: b5cinema_page_title
+theme: b5cinema
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

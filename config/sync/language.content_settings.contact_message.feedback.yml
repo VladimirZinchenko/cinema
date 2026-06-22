@@ -1,0 +1,11 @@
+uuid: cdc4dbad-30c9-45dc-aeb5-2bdb432b2d23
+langcode: uk
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+id: contact_message.feedback
+target_entity_type_id: contact_message
+target_bundle: feedback
+default_langcode: site_default
+language_alterable: false

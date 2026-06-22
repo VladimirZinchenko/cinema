@@ -1,0 +1,22 @@
+uuid: fec5c655-54e4-4ce2-a940-9bc4c09e4410
+langcode: en
+status: true
+dependencies:
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: w_fFJJ7N_3zKUEf31p-LPt_L6JzspwmTUmJbmAIgUnY
+id: b5cinema_local_tasks
+theme: b5cinema
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

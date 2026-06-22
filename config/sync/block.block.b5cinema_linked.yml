@@ -1,0 +1,33 @@
+uuid: c170b0d4-3e22-4810-a16a-dede7cd63116
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite_link
+    - system
+    - user
+  theme:
+    - b5cinema
+id: b5cinema_linked
+theme: b5cinema
+region: content
+weight: 0
+provider: null
+plugin: 'invite_link_block:linked'
+settings:
+  id: 'invite_link_block:linked'
+  label: 'Create invite'
+  label_display: visible
+  provider: invite_link
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/1
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

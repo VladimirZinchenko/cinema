@@ -1,0 +1,4 @@
+_core:
+  default_config_hash: 2Q_LYBMEcQhoPzcfKR3pCDNba6Paz4HzJdwu_RYppWQ
+invite_expiration: '3650'
+accept_redirect: view.welcome.page_1

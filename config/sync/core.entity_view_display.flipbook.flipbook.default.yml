@@ -1,0 +1,30 @@
+uuid: f94de2d5-9a52-48ee-9b9a-e9111095249a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - file
+    - flipbook
+id: flipbook.flipbook.default
+targetEntityType: flipbook
+bundle: flipbook
+mode: default
+content:
+  flipbook:
+    type: file_default
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  flipbook_cover: true

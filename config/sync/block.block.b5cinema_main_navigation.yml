@@ -1,0 +1,27 @@
+uuid: 3a4cf86b-b56f-4b1c-abb4-b05d76c8f463
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: Ou36uZCD2TSk3JqBBK_uYKY1GJbwS05CxlQffxBaaWo
+id: b5cinema_main_navigation
+theme: b5cinema
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основна навіґація'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

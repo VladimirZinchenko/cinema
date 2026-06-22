@@ -1,0 +1,27 @@
+uuid: b065f488-b6ec-4799-b5f2-0d7dff7ba039
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: d_U2AayzphIvmKxs0mOGsQWVjUQ3l-i-hKNNM0PYe2A
+id: b5cinema_account_menu
+theme: b5cinema
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню облікового запису користувача'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

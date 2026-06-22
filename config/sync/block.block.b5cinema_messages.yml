@@ -1,0 +1,22 @@
+uuid: 935d5da3-79e7-4050-84a9-edee036311e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: IjuNBblvre7AhN31v-mldBCUIbK1ZpS33Qv3AXbqXWw
+id: b5cinema_messages
+theme: b5cinema
+region: content
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Повідомлення
+  label_display: '0'
+  provider: system
+visibility: {  }

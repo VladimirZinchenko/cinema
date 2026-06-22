@@ -1,0 +1,22 @@
+uuid: 13cdcc65-cc4f-438c-9f54-9cfee96238fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5cinema
+_core:
+  default_config_hash: alhnLa1j6siFUw707IFcaKygzRu8VYW4iYV2nOlcAts
+id: b5cinema_content
+theme: b5cinema
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

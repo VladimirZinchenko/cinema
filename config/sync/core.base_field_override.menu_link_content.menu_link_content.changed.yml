@@ -1,0 +1,18 @@
+uuid: 2485cc49-cda2-46db-a460-73c96ef05d56
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.changed
+field_name: changed
+entity_type: menu_link_content
+bundle: menu_link_content
+label: Змінено
+description: 'Час, коли востаннє редагувалося меню.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
