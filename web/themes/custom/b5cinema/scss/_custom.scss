@@ -1,0 +1,29 @@
+@include media-breakpoint-up(md){
+	.path-user .region-content,
+	.contact-message-feedback-form,
+	.contact-message-order-catalog-form,
+//	.page-node-type-page .node__content,
+	.view-welcome {
+		width: 50%;
+		margin: auto;
+	}
+}
+
+#block-b5cinema-socialauthlogin {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+		img {
+			padding: 0.5rem;
+	}
+}
+
+.lang-dropdown-select-element {
+	padding-top: 0.45rem;
+	padding-bottom: 0.45rem;
+}
+.navbar-brand {
+	font-family: Oswald;
+}
