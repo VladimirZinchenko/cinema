@@ -27,3 +27,9 @@
 .navbar-brand {
 	font-family: Oswald;
 }
+
+//Hide alert massage on User Invite
+.page-route-view-frontpage-page-1 .alert,
+.path-frontpage .alert {
+	display: none;
+}

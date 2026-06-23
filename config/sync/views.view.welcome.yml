@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - system.menu.main
+    - system.menu.account
     - user.role.administrator
     - user.role.anonymous
   module:
@@ -285,9 +285,9 @@ display:
         type: normal
         title: Welcome
         description: ''
-        weight: 0
+        weight: -50
         expanded: false
-        menu_name: main
+        menu_name: account
         parent: ''
         context: '0'
     cache_metadata:

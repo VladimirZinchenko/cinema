@@ -12585,4 +12585,9 @@ code {
   font-family: Oswald;
 }
 
+.page-route-view-frontpage-page-1 .alert,
+.path-frontpage .alert {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
