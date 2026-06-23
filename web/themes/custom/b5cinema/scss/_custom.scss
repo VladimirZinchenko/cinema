@@ -30,6 +30,8 @@
 
 //Hide alert massage on User Invite
 .page-route-view-frontpage-page-1 .alert,
-.path-frontpage .alert {
+.path-frontpage .alert,
+.page-route-view-frontpage-page-1 .messages,
+.path-frontpage .messages {
 	display: none;
 }
