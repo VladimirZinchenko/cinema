@@ -1,4 +1,4 @@
-uuid: 75ce20c3-a88e-4893-b4c0-3ce4deed6fe8
+uuid: 0356e1a4-e50a-48bf-a0bc-7db2a5fd000e
 langcode: en
 status: true
 dependencies:
@@ -10,14 +10,14 @@ dependencies:
     - views
   theme:
     - b5cinema
-id: b5cinema_views_block__flipbooks_block_2
+id: b5cinema_views_block__flipbooks_block_4
 theme: b5cinema
 region: content
-weight: 2
+weight: 4
 provider: null
-plugin: 'views_block:flipbooks-block_2'
+plugin: 'views_block:flipbooks-block_4'
 settings:
-  id: 'views_block:flipbooks-block_2'
+  id: 'views_block:flipbooks-block_4'
   label: ''
   label_display: '0'
   provider: views
@@ -30,7 +30,7 @@ visibility:
     context_mapping:
       language: '@language.current_language_context:language_interface'
     langcodes:
-      uk: uk
+      de: de
   request_path:
     id: request_path
     negate: false

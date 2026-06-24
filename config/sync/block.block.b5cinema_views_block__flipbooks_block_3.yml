@@ -13,7 +13,7 @@ dependencies:
 id: b5cinema_views_block__flipbooks_block_3
 theme: b5cinema
 region: content
-weight: 2
+weight: 3
 provider: null
 plugin: 'views_block:flipbooks-block_3'
 settings:
