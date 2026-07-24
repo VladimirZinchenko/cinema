@@ -12569,11 +12569,27 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  background-color: #dee2e6;
+  margin: 1rem 0;
 }
 #block-b5cinema-socialauthlogin img {
   padding: 0.5rem;
+}
+#block-b5cinema-socialauthlogin .social-auth::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+@media (min-width: 768px) {
+  .path-welcome #block-b5cinema-socialauthlogin, .path-frontpage #block-b5cinema-socialauthlogin {
+    margin: 1rem 25%;
+  }
 }
 
 .lang-dropdown-select-element {

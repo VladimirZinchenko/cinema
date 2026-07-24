@@ -13,10 +13,27 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-		img {
-			padding: 0.5rem;
+	padding: 1rem;
+	position: relative;
+	background-color: $gray-300;
+	margin: 1rem 0;
+	img {
+		padding: 0.5rem;
+	}
+	.social-auth::after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		content: "";
+	}
+	@include media-breakpoint-up(md) {
+	.path-welcome &,
+	.path-frontpage & {
+		margin: 1rem 25%;
+		}
 	}
 }
 
