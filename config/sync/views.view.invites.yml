@@ -135,6 +135,13 @@ display:
       filters: {  }
       style:
         type: html_list
+        options:
+          row_class: ''
+          default_row_class: false
+          uses_fields: false
+          type: ol
+          wrapper_class: item-list
+          class: ''
       row:
         type: 'entity:invite'
       query:
